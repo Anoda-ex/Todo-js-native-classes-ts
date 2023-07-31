@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="root"></div>
+    <div class="app">
+        
+            <header class="header">
+                <div class="container">
+                    <div class="header__wrapper">
+                        <div class="logo">
+                            <img src="./assets/img/logo.svg" alt="">
+                        </div>
+                        <div>
+                            <ul class="links-list">
+                                <li class="links-list__item active"> 
+                                    <a href="#" class="links-list__link">
+                                        <div class="links-list__link-icon">
+                                            <img src="./assets/img/link1.svg" alt="">
+                                        </div>
+                                        <div class="links-list__link-text">
+                                            Link 1
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="links-list__item"> 
+                                    <a href="#" class="links-list__link">
+                                        <div class="links-list__link-icon">
+                                            <img src="./assets/img/link2.svg" alt="">
+                                        </div>
+                                        <div class="links-list__link-text">
+                                            Link 2
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="links-list__item"> 
+                                    <a href="#" class="links-list__link">
+                                        <div class="links-list__link-icon">
+                                            <img src="./assets/img/link3.svg" alt="">
+                                        </div>
+                                        <div class="links-list__link-text">
+                                            Link 3
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="links-list__item"> 
+                                    <a href="#" class="links-list__link">
+                                        <div class="links-list__link-icon">
+                                            <img src="./assets/img/link4.svg" alt="">
+                                        </div>
+                                        <div class="links-list__link-text">
+                                            Link 4
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="links-list__item"> 
+                                    <a href="#" class="links-list__link">
+                                        <div class="links-list__link-icon">
+                                            <img src="./assets/img/link5.svg" alt="">
+                                        </div>
+                                        <div class="links-list__link-text">
+                                            Link 5
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="links-list__item"> 
+                                    <a href="#" class="links-list__link">
+                                        <div class="links-list__link-icon">
+                                            <img src="./assets/img/link6.svg" alt="">
+                                        </div>
+                                        <div class="links-list__link-text">
+                                            Link 6
+                                        </div>
+                                    </a>
+                                </li>
+                               
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main class="main">
+                <div class="container">
+                    <div class="main__wrapper">
+                        <div class="todoListDom todo-list" id="todo-list">
+                        </div>
+                        <div class="plus-wrapper">
+                            <button class="plus-button" id="open-popup-button">
+                                <img src="assets/img/plus-icon.png" alt="">
+                            </button>
+                        </div>
+                        <div class="add-modal">
+                            <div class="popup" id="add-todo-popup">
+                                <div class="popup__body">
+                                    <div class="popup-title">
+                                        Add new todo
+                                        
+                                    </div>
+                                    <div class="popup-close" id="close-popup-button">
+                                        <img src="assets/img/close.png" alt="">
+                                    </div>
+                                    <div class="add-form">
+                                        <div class="add-form__block">
+                                            <div class="add-form__label">Name</div>
+                                            <div class="add-form__input">
+                                                <input id="input-name" type="text" placeholder="Name...">
+                                            </div>
+                                        </div>
+                                        <div class="add-form__block">
+                                            <div class="add-form__label">Type</div>
+                                            <div class="add-form__input">
+                                                <select name="select" id="input-type">
+                                                 
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-sumbit">
+                                            <button id="add-todo-button" class="btn form-sumbit__button">
+                                                Add todo
+                                            </button>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer__wrapper">
+                        <div class="logo">
+                            <img src="./assets/img/logo.svg" alt="">
+                        </div>
+                        <div>
+                            <ul class="links-list">
+                                <li class="links-list__item active"> 
+                                    <a href="#" class="links-list__link">
+                                        <div class="links-list__link-icon">
+                                            <img src="./assets/img/link1.svg" alt="">
+                                        </div>
+                                        <div class="links-list__link-text">
+                                            Link 1
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="links-list__item"> 
+                                    <a href="#" class="links-list__link">
+                                        <div class="links-list__link-icon">
+                                            <img src="./assets/img/link2.svg" alt="">
+                                        </div>
+                                        <div class="links-list__link-text">
+                                            Link 2
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="links-list__item"> 
+                                    <a href="#" class="links-list__link">
+                                        <div class="links-list__link-icon">
+                                            <img src="./assets/img/link3.svg" alt="">
+                                        </div>
+                                        <div class="links-list__link-text">
+                                            Link 3
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="links-list__item"> 
+                                    <a href="#" class="links-list__link">
+                                        <div class="links-list__link-icon">
+                                            <img src="./assets/img/link4.svg" alt="">
+                                        </div>
+                                        <div class="links-list__link-text">
+                                            Link 4
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="links-list__item"> 
+                                    <a href="#" class="links-list__link">
+                                        <div class="links-list__link-icon">
+                                            <img src="./assets/img/link5.svg" alt="">
+                                        </div>
+                                        <div class="links-list__link-text">
+                                            Link 5
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="links-list__item"> 
+                                    <a href="#" class="links-list__link">
+                                        <div class="links-list__link-icon">
+                                            <img src="./assets/img/link6.svg" alt="">
+                                        </div>
+                                        <div class="links-list__link-text">
+                                            Link 6
+                                        </div>
+                                    </a>
+                                </li>
+                               
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        
+    </div>
+</body>
+</html>
